@@ -1,0 +1,25 @@
+.wrapper {
+    background: white;
+}
+#card-wrap {
+    background: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.card {
+  border: 1px solid #5b2020;
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.card img {
+    margin-bottom: 20px;
+}
+.card h2{
+    margin-bottom: 7px;
+}
